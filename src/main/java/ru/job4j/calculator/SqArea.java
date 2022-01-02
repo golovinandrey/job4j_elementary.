@@ -1,10 +1,11 @@
 package ru.job4j.calculator;
 
 public class SqArea {
+   // @SuppressWarnings("checkstyle:LocalVariableName")
     public static double squarea(double p, double k) {
         double h = p / (2 * (k + 1));
-        double L = h * k;
-        double s = L * h;
+        double l = h * k;
+        double s = l * h;
         return s;
     }
 
