@@ -14,7 +14,11 @@ public class Converter {
 
     public static void main(String[] args) {
         float euro = Converter.rubleToEuro(140);
-        System.out.println("140 rubels are " + euro + " euro");
+        float an = 140;
+        float expected1 = 2;
+        float aut = Converter.rubleToEuro(an);
+        boolean passed1 = expected1 == aut;
+        System.out.println("140 rubels are 2 euro. Test result " + passed1);
         float dollar = Converter.rubleToDollar(180);
         float in = 180;
         float expected = 3;
