@@ -16,6 +16,7 @@ public class X2Test {
         Assert.assertEquals(expected, rsl);
     }
 
+    @Test
     public void whenB10B0C0X2Then3() {
         int a = 1;
         int b = 1;
@@ -26,6 +27,7 @@ public class X2Test {
         Assert.assertEquals(expected, rsl);
     }
 
+    @Test
     public void whenC10B0C0X2Then2() {
         int a = 0;
         int b = 1;
@@ -36,6 +38,7 @@ public class X2Test {
         Assert.assertEquals(expected, rsl);
     }
 
+    @Test
     public void whenD10B0C0X2Then2() {
         int a = 1;
         int b = 1;
@@ -46,6 +49,7 @@ public class X2Test {
         Assert.assertEquals(expected, rsl);
     }
 
+    @Test
     public void whenE10B0C0X2Then1() {
         int a = 1;
         int b = 1;
