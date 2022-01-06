@@ -16,7 +16,8 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
-    public void when11to20then0() {
+    @Test
+    public void when11to11then0() {
         int x1 = 1;
         int y1 = 1;
         int x2 = 1;
@@ -26,7 +27,8 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
-    public void when22to20then1() {
+    @Test
+    public void when10to01then1dot41() {
         int x1 = 1;
         int y1 = 0;
         int x2 = 0;
@@ -36,7 +38,8 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
-    public void when33to20then4() {
+    @Test
+    public void when12to45then4dot24() {
         int x1 = 1;
         int y1 = 2;
         int x2 = 4;
