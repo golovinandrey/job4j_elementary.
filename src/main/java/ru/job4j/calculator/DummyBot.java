@@ -17,6 +17,6 @@ public class DummyBot {
     public static void main(String[] args) {
         DummyBot.answer("Привет, Бот");
         DummyBot.answer("Пока");
-        DummyBot.answer("Как дела?");
+        DummyBot.answer("Сколько будет 2 + 2?");
     }
 }
