@@ -1,13 +1,13 @@
 package ru.job4j.calculator;
 
 public class Max {
-    public static String max(int left, int right) {
-        String result = left > right ? ("Левое число больше правого") : ("Правое число больше левого");
+    public static int max(int left, int right) {
+        int result = left > right ? left : right;
         return result;
     }
 
     public static void main(String[] args) {
-        String msg = Max.max(90, 60);
-        System.out.println(msg);
+        int rsl = Max.max(1, 2);
+        System.out.println(rsl);
     }
 }
