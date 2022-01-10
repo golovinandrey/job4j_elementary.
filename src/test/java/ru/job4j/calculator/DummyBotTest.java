@@ -15,7 +15,7 @@ public class DummyBotTest {
 
     @Test
     public void whenByeBot() {
-        String in = "Пока, Бот";
+        String in = "Пока";
         String result = DummyBot.answer(in);
         String expeted = "До скорой встречи";
         Assert.assertEquals(expeted, result);
