@@ -9,6 +9,5 @@ public class Mortgage {
             year += 1;
         }
         return year;
-
     }
 }
