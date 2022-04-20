@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MinDiapasonTest {
-
     @Test
     public void whenFirstMin() {
         int[] array = new int[] {-1, 0, 5, 10};
@@ -14,7 +13,6 @@ public class MinDiapasonTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenLastMin() {
         int[] array = new int[] {10, 5, 3, 1};
@@ -24,7 +22,6 @@ public class MinDiapasonTest {
         int expected = 1;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenMiddleMin() {
         int[] array = new int[] {10, 2, 5, 1};

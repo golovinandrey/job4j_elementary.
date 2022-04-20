@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class ChessBoardTest {
-
     @Test
     public void wayIs5() {
         int x1 = 6;
@@ -15,7 +14,6 @@ public class ChessBoardTest {
         int expected = 5;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void wayIs7() {
         int x1 = 7;
@@ -26,7 +24,6 @@ public class ChessBoardTest {
         int expected = 7;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void wayIs0() {
         int x1 = 2;
@@ -37,7 +34,6 @@ public class ChessBoardTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenX1isMinus1ThenWayIs0() {
         int x1 = -1;
@@ -48,7 +44,6 @@ public class ChessBoardTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenY1isMinus1ThenWayIs0() {
         int x1 = 2;
@@ -59,7 +54,6 @@ public class ChessBoardTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenX2isMinus1ThenWayIs0() {
         int x1 = 2;
@@ -70,7 +64,6 @@ public class ChessBoardTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenY2isMinus1ThenWayIs0() {
         int x1 = 2;
@@ -81,7 +74,6 @@ public class ChessBoardTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenX1isGreater7ThenWayIs0() {
         int x1 = 10;
@@ -92,7 +84,6 @@ public class ChessBoardTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenY1isGreater7ThenWayIs0() {
         int x1 = 2;
@@ -103,7 +94,6 @@ public class ChessBoardTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenX2isGreater7ThenWayIs0() {
         int x1 = 2;
@@ -114,7 +104,6 @@ public class ChessBoardTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenY2isGreater7ThenWayIs0() {
         int x1 = 2;

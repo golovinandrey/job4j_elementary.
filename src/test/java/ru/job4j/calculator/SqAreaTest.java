@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class SqAreaTest {
-
     @Test
     public void whenP6K2Square2() {
         double expected = 2;
@@ -13,7 +12,6 @@ public class SqAreaTest {
         double out = SqArea.squarea(p, k);
         Assert.assertEquals(expected, out, 0.01);
     }
-
     @Test
     public void whenP8K3Square3() {
         double expected = 3;
@@ -22,7 +20,6 @@ public class SqAreaTest {
         double out = SqArea.squarea(p, k);
         Assert.assertEquals(expected, out, 0.01);
     }
-
     @Test
     public void whenP10K4Square4() {
         double expected = 4;
@@ -31,7 +28,6 @@ public class SqAreaTest {
         double out = SqArea.squarea(p, k);
         Assert.assertEquals(expected, out, 0.01);
     }
-
     @Test
     public void whenP20K4Square16() {
         double expected = 16;

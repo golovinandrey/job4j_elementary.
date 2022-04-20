@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class EndsWithTest {
-
     @Test
     public void whenEndWithPrefixThenTrue() {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
@@ -12,7 +11,6 @@ public class EndsWithTest {
         boolean result = EndsWith.endWith(word, post);
         Assert.assertTrue(result);
     }
-
     @Test
     public void whenNotEndWithPrefixThenFalse() {
         char[] word = {'H', 'e', 'l', 'l', 'o'};

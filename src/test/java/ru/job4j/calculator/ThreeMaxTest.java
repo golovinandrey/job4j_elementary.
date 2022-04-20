@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class ThreeMaxTest {
-
     @Test
     public void firstMax() {
         int first = 10;
@@ -14,7 +13,6 @@ public class ThreeMaxTest {
         int expected = 10;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void secondMax() {
         int first = 10;
@@ -24,7 +22,6 @@ public class ThreeMaxTest {
         int expected = 50;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void thirdMax() {
         int first = 1;
@@ -34,7 +31,6 @@ public class ThreeMaxTest {
         int expected = 100;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void allEq() {
         int first = 1;
@@ -44,7 +40,6 @@ public class ThreeMaxTest {
         int expected = 1;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void firstEqSecond() {
         int first = 10;
@@ -54,7 +49,6 @@ public class ThreeMaxTest {
         int expected = 10;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void firstEqThird() {
         int first = 100;
@@ -64,7 +58,6 @@ public class ThreeMaxTest {
         int expected = 100;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void secondEqThird() {
         int first = 1;

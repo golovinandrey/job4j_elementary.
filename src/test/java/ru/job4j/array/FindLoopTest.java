@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class FindLoopTest {
-
     @Test
     public void whenArrayHas5Then0() {
         int[] data = {5, 4, 3, 2};
@@ -13,7 +12,6 @@ public class FindLoopTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenArrayHasNot6Thenminus1() {
         int[] data = {5, 4, 3, 2};
@@ -22,7 +20,6 @@ public class FindLoopTest {
         int expected = -1;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenFind3() {
         int[] data = new int[] {5, 2, 10, 2, 4};

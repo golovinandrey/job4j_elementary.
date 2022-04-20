@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class PrimeNumberTest {
-
     @Test
     public void when5() {
         int finish = 5;
@@ -12,7 +11,6 @@ public class PrimeNumberTest {
         int expected = 3;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void when11() {
         int finish = 11;
@@ -20,7 +18,6 @@ public class PrimeNumberTest {
         int expected = 5;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void when2() {
         int finish = 2;

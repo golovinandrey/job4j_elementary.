@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class SquareTest {
-
     @Test
     public void whenBound3Then014() {
         int bound = 3;
@@ -12,7 +11,6 @@ public class SquareTest {
         int[] expected = new int[] {0, 1, 4};
         Assert.assertArrayEquals(expected, result);
     }
-
     @Test
     public void whenBound5Then01491625() {
         int bound = 5;

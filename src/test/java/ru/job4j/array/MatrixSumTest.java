@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MatrixSumTest {
-
     @Test
     public void whenSingle() {
         int[][] array = {
@@ -14,7 +13,6 @@ public class MatrixSumTest {
         int expected = 10;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenTwo() {
         int[][] array = {
@@ -25,7 +23,6 @@ public class MatrixSumTest {
         int expected = 6;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenThree() {
         int[][] array = {

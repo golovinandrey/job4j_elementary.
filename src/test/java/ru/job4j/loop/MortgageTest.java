@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MortgageTest {
-
     @Test
     public void when1Year() {
         int amount = 1000;
@@ -14,7 +13,6 @@ public class MortgageTest {
         int expected = 1;
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void when2Year() {
         int amount = 100;

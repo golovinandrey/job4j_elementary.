@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class DummyBotTest {
-
     @Test
     public void whenGreetBot() {
         String in = "Привет, Бот";
@@ -12,7 +11,6 @@ public class DummyBotTest {
         String expected = "Привет, умник";
         Assert.assertEquals(expected, result);
     }
-
     @Test
     public void whenByeBot() {
         String in = "Пока";
@@ -20,7 +18,6 @@ public class DummyBotTest {
         String expeted = "До скорой встречи";
         Assert.assertEquals(expeted, result);
     }
-
     @Test
     public void whenUnknowBot() {
         String in = "Сколько будт 2 + 2?";

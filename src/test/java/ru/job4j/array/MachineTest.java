@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MachineTest {
-
     @Test
     public void whenEquals() {
         int money = 100;
@@ -13,7 +12,6 @@ public class MachineTest {
         int[] expected = {};
         Assert.assertArrayEquals(expected, result);
     }
-
     @Test
     public void when50by35() {
         int money = 50;
@@ -22,7 +20,6 @@ public class MachineTest {
         int[] expected = {10, 5};
         Assert.assertArrayEquals(expected, result);
     }
-
     @Test
     public void when50by21() {
         int money = 50;
@@ -31,7 +28,6 @@ public class MachineTest {
         int[] expected = {10, 10, 5, 2, 2};
         Assert.assertArrayEquals(expected, result);
     }
-
     @Test
     public void when50by32() {
         int money = 50;
